@@ -1,0 +1,6 @@
+from gym_transfer.envs.mountain_car_scaled import MountainCarEnvScaled
+from gym_transfer.envs.cartpole2bullet import CartPoleBulletEnv
+from gym_transfer.envs.cartpole2bullet_po import CartPoleBulletPOEnv
+from gym_transfer.envs.cartpole2bullet_po_scaled import CartPoleBulletPOScaledEnv
+from gym_transfer.envs.acrobot_sparse import AcrobotEnvSparse
+from gym_transfer.envs.acrobot_dense import AcrobotEnvDense

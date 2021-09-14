@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot name="blockers">
+  <link name="block-left">
+    <visual>
+      <geometry>
+        <box size="1.0 1.0 1.0"/>
+      </geometry>
+      <origin xyz="4 0 0"/>
+      <material name="red">
+        <color rgba=".8 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+          <box size="1.0 1.0 1.0"/>
+      </geometry>
+      <origin xyz="4 0 0"/>
+      <contact_coefficient kd="10" kp="10"/>
+    </collision>
+    <inertial>
+      <mass value="0"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+</robot>  
